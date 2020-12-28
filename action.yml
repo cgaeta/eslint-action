@@ -5,7 +5,7 @@ inputs:
   src:
     description: Path to JS src files
     required: false
-    default: src
+    default: src/**/*.js
 runs:
   using: node12
   main: index.js
