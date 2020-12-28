@@ -1,0 +1,11 @@
+name: eslint
+author: Chris Gaeta
+description: Run eslint on your code, do something with that
+inputs:
+  src:
+    description: Path to JS src files
+    required: false
+    default: src
+runs:
+  using: node14
+  main: index.js

@@ -1,0 +1,14 @@
+{
+  "name": "eslint-action",
+  "version": "0.0.0",
+  "description": "Playing around with simple GitHub Actions",
+  "main": "index.js",
+  "repository": "https://github.com/cgaeta/eslint-action",
+  "author": "cgaeta <datopher64@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "eslint": "^7.16.0"
+  }
+}
