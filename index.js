@@ -11,6 +11,6 @@ const main = async () => {
 };
 
 main().catch((err) => {
-  process.exitCode = =;
+  process.exitCode = 1;
   console.error(err);
 });
